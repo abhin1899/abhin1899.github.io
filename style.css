@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:700);
+
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,500);
+
+html, body{
+    height: 100%;
+    margin:0px;
+}
+
+div {
+  font-family: 'Josefin Slab', serif;
+  font-size:12.5em;
+  position:relative;
+}
+
+span {
+  position:absolute;
+}
+
+.top span {
+  bottom:-50px;
+}
+
+.bottom span {
+  top:-10px;
+}
+
+div.top {
+  color:#FFF;
+  background-image: url('http://i59.tinypic.com/wtt9xt.png');
+  /*background-color:#fcfcfe;*/
+  width:100%;
+  height:50%;
+}
+
+div.bottom {
+  color:#b1f6cb;
+  background-color:#FFF;
+  width:100%;
+  height:50%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  font-family: Dosis, Sans-serif;
+  color: #FFF;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding: 0;
+  background-color: #b1f6cb;
+  position: absolute;
+  bottom: 0;
+}
+
+p {
+  margin: 0.3em;
+}
