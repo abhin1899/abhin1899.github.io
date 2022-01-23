@@ -27,8 +27,8 @@ span {
 
 div.top {
   color:#FFF;
-  background-image: url('http://i59.tinypic.com/wtt9xt.png');
-  /*background-color:#fcfcfe;*/
+/*   background-image: url('http://i59.tinypic.com/wtt9xt.png'); */
+  background-color:#fcfcfe;
   width:100%;
   height:50%;
 }
